@@ -1,20 +1,20 @@
 ---
 # Display name
-title: 吳健雄
+title: Rachel
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Rachel
+last_name: Topno
 
 # Pronouns (optional)
 pronouns: she/her
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🕵
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,12 +23,12 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: OpenAI
-    url: https://openai.com/
+previous organizations:
+  - name: IGH, LPhI, Amity
+    url: 
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -51,16 +51,16 @@ profiles:
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Computational Biology
+  - Computer Vision
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Computational Biology
+    institution: University of Montpellier
+    date_start: 2020-10-01
+    date_end: 2024-12-12
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on Understanding the role of transcriptional noise in HIV-1 latency exit. Supervised by [Prof Ovidiu Radulescu](https://qbio.umontpellier.fr/team/ovidiu-radulescu/) and [Dr. Edouard Bertrand] (https://www.igh.cnrs.fr/en/research/departments/genetics-development/biologie-cellulaire-de-larn). Contributions being published in 6+ journals.
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
