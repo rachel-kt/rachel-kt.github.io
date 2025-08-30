@@ -64,19 +64,19 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: M.Sc Physics
+    institution: Department of Astrophysics and Astronomy, University of Delhi, India
+    date_start: 2015-01-01
+    date_end: 2017-12-31
     summary: |
-      GPA: 3.8/4.0
+      
 
       Courses included:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
+  - area: Post Graduate Diploma in Applied Statistics 
+    institution: Indira Gandhi National Open University, New Delhi, India
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
@@ -186,4 +186,4 @@ awards:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Data Scientist with a strong foundation in Computational Science and 5+ years of experience in scientific programming, modeling, and high-performance data analysis. Passionate about bridging research innovation and industrial application in complex systems, simulation, and data intelligence
