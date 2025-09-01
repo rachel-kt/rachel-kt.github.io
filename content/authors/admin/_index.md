@@ -39,7 +39,7 @@ profiles:
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/ice_india?igsh=MWNtZG42b3FhdTRrMQ%3D%3D&utm_source=qr
   - icon: brands/github
     url: https://github.com/rachel-kt
   - icon: brands/linkedin
@@ -54,6 +54,22 @@ interests:
   - Computational Biology
   - Computer Vision
 
+skills:
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
+        
 education:
   - area: PhD Computational Biology
     institution: University of Montpellier
