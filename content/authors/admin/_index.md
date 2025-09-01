@@ -146,7 +146,6 @@ skills:
     color_border: '#3838FF'
     items:
       - name: 'Scikit-Image & OpenCV'
-        description: ', , 
         percentage: 75
       - name: 'Image Segmentation'
       - name: 'Edge Detection, Spot Detection, Object detection'
@@ -165,7 +164,7 @@ skills:
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
-      - name: Genetic Algorithms, Signal Reconstruction'
+      - name: 'Genetic Algorithms, Signal Reconstruction'
         percent: 85
       - name: 'PyTorch, TensorFlow'
         percent: 75
