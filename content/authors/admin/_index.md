@@ -148,9 +148,9 @@ skills:
     items:
       - name: 'Scikit-Image & OpenCV'
         percentage: 75
-      - name: 'Image Segmentation'
+      - name: 'Segmentation'
         percent: 90
-      - name: 'Edge Detection, Spot Detection, Object detection'
+      - name: 'Object detection'
         percent: 90
       - name: 'Object Tracking'
         percent: 90
@@ -159,10 +159,17 @@ skills:
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
-      - name: 'CI/CD tools Git, GitLab CI, Docker, Jupyter'
-      - name: 'environments, pyqt, flask'
+      - name: 'CI/CD tools
+        percent: 85
+      - name: 'Git, GitLab'
+        percent: 85
+      - name: 'Docker, Jupyter'
+        percent: 85
+      - name: 'environments
+        percent: 85
+      - name: 'pyqt, flask'
         percent: 80
-        icon: circle-stack
+        
 
   - name: ML & DL
     color: '#38A9FF'
