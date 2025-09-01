@@ -110,18 +110,25 @@ work:
 skills:
   - name: Technical Skills
     items:
-      - name: Python
-        description: ''
-        percent: 80
+      - name: Programming
+        description: 'Python, R, C/C++, MATLAB, Bash, Git, Shell'
+        percent: 95
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
+      - name: Data Science & Statistics
+        description: 'Advanced Numerical methods, Data Engineering, Statistical Analysis, Model Validation, Hypothesis Testing'
+        percent: 95
         icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
+      - name: Image Processing & Computer Vision
+        description: 'Scikit-Image, OpenCV, Image Segmentation, Edge Detection, Spot Detection, Object Tracking'
+        percentage: 75
+      - name: DevOps & Tools
+        description: 'CI/CD tools Git, GitLab CI, Docker, Jupyter, environments, pyqt, flask'
+        percent: 80
         icon: circle-stack
+      - name: Machine Learning & Deep Learning
+        description: 'PyTorch, TensorFlow, CNNs, U-Net, Genetic Algorithms, Signal Reconstruction'
+        percent: 75
+
 
   - name: Hobbies
     color: '#eeac02'
