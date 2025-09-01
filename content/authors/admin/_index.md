@@ -54,21 +54,6 @@ interests:
   - Computational Biology
   - Computer Vision
 
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
         
 education:
   - area: PhD Computational Biology
@@ -137,6 +122,7 @@ skills:
         description: ''
         percent: 40
         icon: circle-stack
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
@@ -153,16 +139,19 @@ skills:
         description: ''
         percent: 80
         icon: camera
+  - name: Languages
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    item:
+      - name: English
+        percent: 100
+      - name: French
+        percent: 60
+      - name: Hindi
+        percent: 100
+      - name: Bengali
+        percent: 100 
 
-languages:
-  - name: English
-    percent: 100
-  - name: French
-    percent: 60
-  - name: Hindi
-    percent: 100
-  - name: Bengali
-    percent: 100 
 
 # Awards.
 #   Add/remove as many awards below as you like.
