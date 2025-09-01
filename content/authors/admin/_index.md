@@ -108,57 +108,99 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Programming
-        description: 'Python, R, C/C++, MATLAB, Bash, Git, Shell'
-        percent: 95
-        icon: code-bracket
-      - name: Data Science & Statistics
-        description: 'Advanced Numerical methods, Data Engineering, Statistical Analysis, Model Validation, Hypothesis Testing'
-        percent: 95
-        icon: chart-bar
-      - name: Image Processing & Computer Vision
-        description: 'Scikit-Image, OpenCV, Image Segmentation, Edge Detection, Spot Detection, Object Tracking'
-        percentage: 75
-      - name: DevOps & Tools
-        description: 'CI/CD tools Git, GitLab CI, Docker, Jupyter, environments, pyqt, flask'
-        percent: 80
-        icon: circle-stack
-      - name: Machine Learning & Deep Learning
-        description: 'PyTorch, TensorFlow, CNNs, U-Net, Genetic Algorithms, Signal Reconstruction'
-        percent: 75
-
-
-  - name: Hobbies
+  - name: Programming
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: 'Python'
+        percent: 90
+      - name: 'R'
+        percent: 85
+      - name : 'C/C++'
+        percent: 75
+      - name: 'MATLAB'
+        percent: 'Bash, Git, Shell'
+        percent: 85
+        icon: code-bracket
 
-  - name: Languages
+  - name: Data Science & Statistics
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    itmes:
+      - name: 'Advanced Numerical methods'
+        percent: 95
+      - name: 'Data Engineering'
+        percent: 95
+      - name: 'Statistical Analysis'
+        percent: 95
+        icon: chart-bar
+      - name: 'Model Validation'
+        percent: 95
+      - name: 'Hypothesis Testing'
+        percent: 95
+          
+        
+  - name: Image Processing & Computer Vision
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
-      - name: English
-        percent: 100
-      - name: French
+      - name: 'Scikit-Image & OpenCV'
+        description: ', , 
+        percentage: 75
+      - name: 'Image Segmentation'
+      - name: 'Edge Detection, Spot Detection, Object detection'
+      - name: 'Object Tracking'
+
+  - name: DevOps & Tools
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: 'CI/CD tools Git, GitLab CI, Docker, Jupyter'
+      - name: 'environments, pyqt, flask'
+        percent: 80
+        icon: circle-stack
+
+  - name: Machine Learning & Deep Learning
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: Genetic Algorithms, Signal Reconstruction'
+        percent: 85
+      - name: 'PyTorch, TensorFlow'
+        percent: 75
+      - name: 'CNNs, U-Net'
         percent: 60
-      - name: Hindi
-        percent: 100
-      - name: Bengali
-        percent: 100 
+
+
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera
+
+  # - name: Languages
+  #   color: '#38A9FF'
+  #   color_border: '#3838FF'
+  #   items:
+  #     - name: English
+  #       percent: 100
+  #     - name: French
+  #       percent: 60
+  #     - name: Hindi
+  #       percent: 100
+  #     - name: Bengali
+  #       percent: 100 
 
 
 # Awards.
