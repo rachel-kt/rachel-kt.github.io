@@ -54,8 +54,11 @@ interests:
   - Computer Vision
   - Artificial Intelligence
   - Machine Learning
+  - Stochastic Simulation
+  - Mathematical Modelling
   - Healthcare
   - Complex Systems
+
         
 education:
   - area: PhD Computational Biology
