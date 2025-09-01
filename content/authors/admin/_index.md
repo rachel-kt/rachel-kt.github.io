@@ -139,10 +139,11 @@ skills:
         description: ''
         percent: 80
         icon: camera
+
   - name: Languages
     color: '#38A9FF'
     color_border: '#3838FF'
-    item:
+    items:
       - name: English
         percent: 100
       - name: French
