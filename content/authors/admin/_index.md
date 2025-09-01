@@ -125,7 +125,7 @@ skills:
         percent: 85
         icon: code-bracket
 
-  - name: Data Science & Statistics
+  - name: Data Science
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
@@ -142,7 +142,7 @@ skills:
         percent: 95
           
         
-  - name: Image Processing & Computer Vision
+  - name: Computer Vision
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
@@ -164,7 +164,7 @@ skills:
         percent: 80
         icon: circle-stack
 
-  - name: Machine Learning & Deep Learning
+  - name: ML & DL
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
@@ -175,6 +175,7 @@ skills:
       - name: 'CNNs, U-Net'
         percent: 60
 
+  - name: Bioinformatics 
 
   # - name: Hobbies
   #   color: '#eeac02'
