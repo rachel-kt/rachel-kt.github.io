@@ -53,7 +53,8 @@ interests:
   - Artificial Intelligence
   - Computational Biology
   - Computer Vision
-
+  - Healthcare
+  - Complex Systems
         
 education:
   - area: PhD Computational Biology
