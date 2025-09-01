@@ -191,7 +191,7 @@ skills:
       - name: 'Microarray Analysis'
         percent: 90
         icon: circle-stack
-       - name: 'ChIP-Seq'
+      - name: 'ChIP-Seq'
         percent: 90
 
   # - name: Hobbies
