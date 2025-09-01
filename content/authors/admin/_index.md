@@ -159,13 +159,13 @@ skills:
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
-      - name: 'CI/CD tools
+      - name: 'CI/CD tools'
         percent: 85
       - name: 'Git, GitLab'
         percent: 85
       - name: 'Docker, Jupyter'
         percent: 85
-      - name: 'environments
+      - name: 'environments'
         percent: 85
       - name: 'pyqt, flask'
         percent: 80
@@ -175,7 +175,7 @@ skills:
     color: '#38A9FF'
     color_border: '#3838FF'
     items:
-      - name: 'Genetic Algorithms, Signal Reconstruction'
+      - name: 'Genetic Algorithms'
         percent: 85
       - name: 'PyTorch, TensorFlow'
         percent: 75
@@ -183,6 +183,16 @@ skills:
         percent: 60
 
   - name: Bioinformatics 
+    color: ''
+    color_border: ''
+    items:
+      - name: 'RNA-Seq'
+        percent: 90
+      - name: 'Microarray Analysis'
+        percent: 90
+        icon: circle-stack
+       - name: 'ChIP-Seq'
+        percent: 90
 
   # - name: Hobbies
   #   color: '#eeac02'
