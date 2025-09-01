@@ -127,7 +127,7 @@ skills:
   - name: Data Science & Statistics
     color: '#38A9FF'
     color_border: '#3838FF'
-    itmes:
+    items:
       - name: 'Advanced Numerical methods'
         percent: 95
       - name: 'Data Engineering'
@@ -148,9 +148,12 @@ skills:
       - name: 'Scikit-Image & OpenCV'
         percentage: 75
       - name: 'Image Segmentation'
+        percent: 90
       - name: 'Edge Detection, Spot Detection, Object detection'
+        percent: 90
       - name: 'Object Tracking'
-
+        percent: 90
+        
   - name: DevOps & Tools
     color: '#38A9FF'
     color_border: '#3838FF'
