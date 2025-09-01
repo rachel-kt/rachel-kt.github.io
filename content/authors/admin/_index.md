@@ -50,9 +50,10 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-4920-9599
 
 interests:
-  - Artificial Intelligence
   - Computational Biology
   - Computer Vision
+  - Artificial Intelligence
+  - Machine Learning
   - Healthcare
   - Complex Systems
         
@@ -153,7 +154,7 @@ skills:
         percent: 90
       - name: 'Object Tracking'
         percent: 90
-        
+
   - name: DevOps & Tools
     color: '#38A9FF'
     color_border: '#3838FF'
