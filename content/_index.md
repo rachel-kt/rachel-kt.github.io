@@ -46,7 +46,7 @@ sections:
       css_class: dark
       # Avatar customization
       background:
-        color: '#004B37'
+        color: '#003723'
         image:
           # Add your image background to `assets/media/`.
           filename: ''
