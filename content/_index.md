@@ -45,14 +45,11 @@ sections:
     design:
       css_class: dark
       # Avatar customization
-      avatar:
-        size: xxl  # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
-        shape: circle # Options: circle (default), square, rounded
       background:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
+          filename: ''
           filters:
             brightness: 1.0
           size: cover
