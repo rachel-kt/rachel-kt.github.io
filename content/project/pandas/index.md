@@ -1,10 +1,10 @@
 ---
 title: BurstDeconv
-date: 2023-10-26
+date: 2023-07-31
 links:
-  - type: [Link to deconvolution notebook]
+  - type: site
     url: https://mybinder.org/v2/gh/rachel-kt/deconvolutionDemo/master?filepath=Deconvolution_demo.ipynb
-  - type: [Link to the paper]
+  - type: site
     url: https://academic.oup.com/nar/article/51/16/e88/7233929
 tags:
   # - Hugo
