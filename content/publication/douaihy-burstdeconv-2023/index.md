@@ -7,6 +7,9 @@ authors:
 - Mounia Lagha
 - Edouard Bertrand
 - Ovidiu Radulescu
+author_notes:
+- "Equal contribution"
+- "Equal contribution"
 date: '2023-09-01'
 publishDate: '2025-09-01T15:10:27.746636Z'
 publication_types:
