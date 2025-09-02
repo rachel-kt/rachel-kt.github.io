@@ -265,14 +265,14 @@ awards:
     url: https://www.linkedin.com/posts/universite-de-montpellier_%F0%9D%90%91%F0%9D%90%9E%F0%9D%90%A6%F0%9D%90%A2%F0%9D%90%AC%F0%9D%90%9E-%F0%9D%90%9D%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A2%F0%9D%90%B1-%F0%9D%90%9D%F0%9D%90%9E-%F0%9D%90%AD%F0%9D%90%A1%F0%9D%90%9E%F0%9D%90%AC%F0%9D%90%9E-ugcPost-7350907149562048512-jlQ9?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAtt_KMBmqXcY-RnesZECk1TRRLEu-faT5M
     date: '2025-06-25'
     awarder: University of Montpellier
-    icon: coursera
+    icon: "custom/um-logo"
     summary: |
       My PhD thesis work on HIV-1 latency exit has been recognized with the Best Interdisciplinary Thesis award by the Collège Doctoral of University of Montpellier. In this project, I explored how HIV wakes up from its dormant state, a question that led me down a path combining biology, live-cell imaging, mathematical and statistical modeling, and computer vision. It was truly an interdisciplinary effort, and I'm grateful for the opportunity to work at the intersection of these fields.
   - title: Virendra Kumar Memorial Award 
     url: ''
     date: '2017-07-01'
     awarder: St. Stephen's College
-    icon: edx
+    icon: 'custom/stephens'
     summary: |
       This scholarship is awarded to the student securing maximum marks in the their subject.
   # - title: 'Object-Oriented Programming in R'
