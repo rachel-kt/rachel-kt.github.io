@@ -70,40 +70,24 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
-<<<<<<< HEAD
+      
   - area: M.Sc Physics
     institution: Department of Astrophysics and Astronomy, University of Delhi, India
     date_start: 2015-01-01
     date_end: 2017-12-31
     summary: |
       
-=======
->>>>>>> b3086342af643ac5657a97e6ecf979f2c3bc0bcf
   - area: Post Graduate Diploma in Applied Statistics 
     institution: Indira Gandhi National Open University, New Delhi, India
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
-<<<<<<< HEAD
       # GPA: 3.4/4.0
       
       # Courses included:
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-=======
-  - area: M.Sc Physics
-    institution: Department of Astrophysics and Astronomy, University of Delhi, India
-    date_start: 2015-01-01
-    date_end: 2017-12-31
-    summary: |
-  - area: B.Sc Physics
-    institution: St. Stephen's College, University of Delhi, India
-    date_start: 2010-07-01
-    date_end: 2013-05-31
-    summary: |
-
->>>>>>> b3086342af643ac5657a97e6ecf979f2c3bc0bcf
 work:
   - position: Post-Doc at Computational Systems Biology Lab (LPHI)
     company_name: Laboratory of Pathogens and Host Immunity
