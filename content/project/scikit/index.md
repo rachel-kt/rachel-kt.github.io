@@ -10,7 +10,6 @@ tags:
   # - Markdown
 ---
 
-Watch this space! 
-icon : 😉
+Watch this space! 😉
 
 <!--more-->
