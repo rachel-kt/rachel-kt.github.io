@@ -2,8 +2,8 @@
 title: Deconvolution
 date: 2023-10-26
 links:
-  - type: site
-    url: https://github.com/rachel-kt/deconvolutionDemo
+  - type: Link to deconvolution notebook
+    url: https://mybinder.org/v2/gh/rachel-kt/deconvolutionDemo/master?filepath=Deconvolution_demo.ipynb
 tags:
   - Hugo
   - HugoBlox
