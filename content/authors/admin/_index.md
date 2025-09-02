@@ -108,11 +108,40 @@ work:
     date_start: '2025-01-01'
     date_end: '2025-06-30'
     summary: |2-
-# Responsibilities include:
-# - Migrated infrastructure to a new data center
-# - lorem ipsum dolor sit amet, consectetur adipiscing elit
-# - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
+  - position: Doctoral Research 
+    company_name: Institute of Human Genetics
+    company_url: 'https://www.igh.cnrs.fr/en'
+    company_logo: ''
+    date_start: '2020-10-01'
+    date_end: '2024-12-31'
+    summary: |2-
+
+  - position: Bioinformatics Research Trainee
+    company_name: Amity University, Noida
+    company_url: 'https://www.amity.edu/'
+    company_logo: ''
+    date_start: '2017-07-01'
+    date_end: '2020-02-28'
+    summary: |2-
+    Responsibilities include:
+      - Executed large-scale analysis of transcriptomic and genomic datasets to uncover functional and evolutionary insights. 
+      - Conducted RNA-Seq, microarray, and ChIP-Seq data analysis to identify differentially expressed genes using clustering and functional annotation methods. - Built gene co-expression networks and performed topological analyses to identify hub genes.  
+      - Identified novel RNA thermosensors in Mycobacterium tuberculosis through motif discovery and RNA secondary structure prediction. 
+      - Ensured statistical robustness and biological relevance through rigorous data validation and enrichment analyses.
+
+
+  - position: Customer Relations Executive
+    company_name: CashKaro.com
+    company_url: 'https://cashkaro.com/'
+    company_logo: ''
+    date_start: '2013-08-01'
+    date_end: '2014-03-31'
+    summary: |2-
+    Responsibilities include:   
+      - Enhanced support operations by proposing API-level automation to streamline query resolution, significantly improving response time and customer satisfaction. 
+      - Trained and managed a team of five, overseeing daily workflows and ensuring high-quality service delivery. 
+      - Coordinated internal and client-facing events, facilitating cross-functional collaboration and smooth execution.
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
