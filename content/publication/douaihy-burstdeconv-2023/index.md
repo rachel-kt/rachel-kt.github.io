@@ -12,7 +12,7 @@ publishDate: '2025-09-01T15:10:27.746636Z'
 publication_types:
 - article-journal
 publication: '*Nucleic Acids Research*'
-doi: 10.1093/nar/gkad629
+hugoblox.ids: { doi: 10.1093/nar/gkad629 }
 abstract: Monitoring transcription in living cells gives access to the dynamics of
   this complex fundamental process. It reveals that transcription is discontinuous,
   whereby active periods (bursts) are separated by one or several types of inactive
