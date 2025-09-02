@@ -7,7 +7,7 @@ authors:
 - Adèle L'Hostis
 - Yueyuxiao Yang
 - Nikolay Tsanov
-- Rachel Topno
+- admin
 - Thierry Gostan
 - Alja Kozulic-Pirher
 - Meenakshi Basu-Shrivastava

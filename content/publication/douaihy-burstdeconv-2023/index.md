@@ -3,7 +3,7 @@ title: 'BurstDECONV: a signal deconvolution method to uncover mechanisms of tran
   bursting in live cells'
 authors:
 - Maria Douaihy
-- Rachel Topno
+- admin
 - Mounia Lagha
 - Edouard Bertrand
 - Ovidiu Radulescu

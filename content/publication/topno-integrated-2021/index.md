@@ -2,7 +2,7 @@
 title: Integrated bioinformatic analysis identifies UBE2Q1 as a potential prognostic
   marker for high grade serous ovarian cancer
 authors:
-- Rachel Topno
+- admin
 - Ibha Singh
 - Manoj Kumar
 - Pallavi Agarwal

@@ -2,7 +2,7 @@
 title: Integrative genome wide analysis of protein tyrosine phosphatases identifies
   CDC25C as prognostic and predictive marker for chemoresistance in breast cancer
 authors:
-- Rachel Topno
+- admin
 - Nazia Nazam
 - Pallawi Kumari
 - Manoj Kumar

@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Rachel
+title: Rachel Topno
 
 # Name pronunciation (optional)
 name_pronunciation: ''
