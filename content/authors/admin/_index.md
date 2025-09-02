@@ -81,13 +81,13 @@ education:
     institution: Indira Gandhi National Open University, New Delhi, India
     date_start: '2016-01-01'
     date_end: '2020-12-31'
-    summary: |
-      # GPA: 3.4/4.0
-      
-      # Courses included:
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: |2-
+    # GPA: 3.4/4.0
+    
+    # Courses included:
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
   - position: Post-Doc at Computational Systems Biology Lab (LPHI)
     company_name: Laboratory of Pathogens and Host Immunity
@@ -96,10 +96,10 @@ work:
     date_start: '2025-09-01'
     date_end: ''
     summary: |2-
-      # Responsibilities include:
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # Responsibilities include:
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    # - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
   - position: Research Engineer
     company_name: Institute of Human Genetics
@@ -107,11 +107,11 @@ work:
     company_logo: ''
     date_start: '2025-01-01'
     date_end: '2025-06-30'
-    summary: |
-      # Responsibilities include:
-      # - Migrated infrastructure to a new data center
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+    summary: |2-
+# Responsibilities include:
+# - Migrated infrastructure to a new data center
+# - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -230,7 +230,15 @@ skills:
   #     - name: Bengali
   #       percent: 100 
 
-
+languages:
+  - name: English
+    percent: 100
+  - name: French
+    percent: 60
+  - name: Hindi
+    percent: 100
+  - name: Bengali
+    percent: 100 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
