@@ -79,8 +79,8 @@ education:
       
   - area: Post Graduate Diploma in Applied Statistics 
     institution: Indira Gandhi National Open University, New Delhi, India
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: '2016-01-01'
+    date_end: '2020-12-31'
     summary: |
       # GPA: 3.4/4.0
       
@@ -93,7 +93,7 @@ work:
     company_name: Laboratory of Pathogens and Host Immunity
     company_url: 'https://lphi.umontpellier.fr/'
     company_logo: ''
-    date_start: 2025-09-01
+    date_start: '2025-09-01'
     date_end: ''
     summary: |2-
       # Responsibilities include:
@@ -105,8 +105,8 @@ work:
     company_name: Institute of Human Genetics
     company_url: 'https://www.igh.cnrs.fr/en'
     company_logo: ''
-    date_start: 2025-01-01
-    date_end: 2025-06-31
+    date_start: '2025-01-01'
+    date_end: '2025-06-31'
     summary: |
       # Responsibilities include:
       # - Migrated infrastructure to a new data center
