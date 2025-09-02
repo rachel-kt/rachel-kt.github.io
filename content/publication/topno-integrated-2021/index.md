@@ -11,7 +11,7 @@ publishDate: '2025-09-01T15:10:27.729279Z'
 publication_types:
 - article-journal
 publication: '*BMC cancer*'
-doi: 10.1186/s12885-021-07928-z
+hugoblox.ids: { doi: 10.1186/s12885-021-07928-z }
 abstract: 'BACKGROUND: High grade serous ovarian cancer (HGSOC) accounts for nearly
   60% of total cases of epithelial ovarian cancer. It is the most aggressive subtype,
   which shows poor prognosis and low patient survival. For better management of HGSOC

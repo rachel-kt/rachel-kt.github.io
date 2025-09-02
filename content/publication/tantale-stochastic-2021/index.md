@@ -23,7 +23,7 @@ publishDate: '2025-09-01T15:10:27.738033Z'
 publication_types:
 - article-journal
 publication: '*Nature Communications*'
-doi: 10.1038/s41467-021-24462-5
+hugoblox.ids: { doi: 10.1038/s41467-021-24462-5 }
 abstract: Promoter-proximal pausing of RNA polymerase II is a key process regulating
   gene expression. In latent HIV-1 cells, it prevents viral transcription and is essential
   for latency maintenance, while in acutely infected cells the viral factor Tat releases
