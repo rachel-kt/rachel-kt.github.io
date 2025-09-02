@@ -33,11 +33,9 @@ previous organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+  - icon: brands/youtube
+    url: https://www.youtube.com/@Ms2loopy
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
     url: https://www.instagram.com/ice_india?igsh=MWNtZG42b3FhdTRrMQ%3D%3D&utm_source=qr
   - icon: brands/github
