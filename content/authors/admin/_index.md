@@ -39,7 +39,7 @@ profiles:
   - icon: brands/x
     url: https://twitter.com/GetResearchDev
   - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.instagram.com/ice_india?igsh=MWNtZG42b3FhdTRrMQ%3D%3D&utm_source=qr
   - icon: brands/github
     url: https://github.com/rachel-kt
   - icon: brands/linkedin
@@ -50,10 +50,16 @@ profiles:
     url: https://orcid.org/my-orcid?orcid=0000-0002-4920-9599
 
 interests:
-  - Artificial Intelligence
   - Computational Biology
   - Computer Vision
+  - Artificial Intelligence
+  - Machine Learning
+  - Stochastic Simulation
+  - Mathematical Modelling
+  - Healthcare
+  - Complex Systems
 
+        
 education:
   - area: PhD Computational Biology
     institution: University of Montpellier
@@ -64,23 +70,40 @@ education:
     button:
       text: 'Read Thesis'
       url: 'https://example.com'
+<<<<<<< HEAD
   - area: M.Sc Physics
     institution: Department of Astrophysics and Astronomy, University of Delhi, India
     date_start: 2015-01-01
     date_end: 2017-12-31
     summary: |
       
+=======
+>>>>>>> b3086342af643ac5657a97e6ecf979f2c3bc0bcf
   - area: Post Graduate Diploma in Applied Statistics 
     institution: Indira Gandhi National Open University, New Delhi, India
     date_start: 2016-01-01
     date_end: 2020-12-31
     summary: |
+<<<<<<< HEAD
       # GPA: 3.4/4.0
       
       # Courses included:
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
       # - lorem ipsum dolor sit amet, consectetur adipiscing elit
+=======
+  - area: M.Sc Physics
+    institution: Department of Astrophysics and Astronomy, University of Delhi, India
+    date_start: 2015-01-01
+    date_end: 2017-12-31
+    summary: |
+  - area: B.Sc Physics
+    institution: St. Stephen's College, University of Delhi, India
+    date_start: 2010-07-01
+    date_end: 2013-05-31
+    summary: |
+
+>>>>>>> b3086342af643ac5657a97e6ecf979f2c3bc0bcf
 work:
   - position: Post-Doc at Computational Systems Biology Lab (LPHI)
     company_name: Laboratory of Pathogens and Host Immunity
@@ -109,46 +132,120 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
+  - name: Programming
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+      - name: 'Python'
+        percent: 90
+      - name: 'R'
+        percent: 85
+      - name : 'C/C++'
+        percent: 75
+      - name: 'MATLAB'
+        percent: 'Bash, Git, Shell'
+        percent: 85
+        icon: code-bracket
 
-languages:
-  - name: English
-    percent: 100
-  - name: French
-    percent: 60
-  - name: Hindi
-    percent: 100
-  - name: Bengali
-    percent: 100 
+  - name: Data Science
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: 'Advanced Numerical methods'
+        percent: 95
+      - name: 'Data Engineering'
+        percent: 95
+      - name: 'Statistical Analysis'
+        percent: 95
+        icon: chart-bar
+      - name: 'Model Validation'
+        percent: 95
+      - name: 'Hypothesis Testing'
+        percent: 95
+          
+        
+  - name: Computer Vision
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: 'Scikit-Image & OpenCV'
+        percentage: 75
+      - name: 'Segmentation'
+        percent: 90
+      - name: 'Object detection'
+        percent: 90
+      - name: 'Object Tracking'
+        percent: 90
+
+  - name: DevOps & Tools
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: 'CI/CD tools'
+        percent: 85
+      - name: 'Git, GitLab'
+        percent: 85
+      - name: 'Docker, Jupyter'
+        percent: 85
+      - name: 'environments'
+        percent: 85
+      - name: 'pyqt, flask'
+        percent: 80
+        
+
+  - name: ML & DL
+    color: '#38A9FF'
+    color_border: '#3838FF'
+    items:
+      - name: 'Genetic Algorithms'
+        percent: 85
+      - name: 'PyTorch, TensorFlow'
+        percent: 75
+      - name: 'CNNs, U-Net'
+        percent: 60
+
+  - name: Bioinformatics 
+    color: ''
+    color_border: ''
+    items:
+      - name: 'RNA-Seq'
+        percent: 90
+      - name: 'Microarray Analysis'
+        percent: 90
+        icon: circle-stack
+      - name: 'ChIP-Seq'
+        percent: 90
+
+  # - name: Hobbies
+  #   color: '#eeac02'
+  #   color_border: '#f0bf23'
+  #   items:
+  #     - name: Hiking
+  #       description: ''
+  #       percent: 60
+  #       icon: person-simple-walk
+  #     - name: Cats
+  #       description: ''
+  #       percent: 100
+  #       icon: cat
+  #     - name: Photography
+  #       description: ''
+  #       percent: 80
+  #       icon: camera
+
+  # - name: Languages
+  #   color: '#38A9FF'
+  #   color_border: '#3838FF'
+  #   items:
+  #     - name: English
+  #       percent: 100
+  #     - name: French
+  #       percent: 60
+  #     - name: Hindi
+  #       percent: 100
+  #     - name: Bengali
+  #       percent: 100 
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
