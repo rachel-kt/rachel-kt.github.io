@@ -61,9 +61,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        I'm a research scientist. I blog about Computer Vision, Image Analysis, and Crochet.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        As a doctoral student at Institut de Génétique Humaine, I conducted cutting-edge research in the field of transcription dynamics, applying my skills in Python, R, and MATLAB to analyze large and complex datasets. I have a master's degree in physics and a postgraduate diploma in statistics, which give me a strong foundation in quantitative and computational methods. I have over six years of work experience in various research settings, including Institut de Génétique Moléculaire de Montpellier and Amity University, where I participated in multiple projects on topics such as gene regulation, transcriptional noise and cancer. I am passionate about advancing our understanding of the molecular mechanisms and interactions that shape human health and disease, and I am eager to collaborate with other researchers and experts in this field. I value curiosity, innovation, and diversity, and I strive to contribute to the scientific community and society with my work.
         
         Please reach out to collaborate 😃
     design:
