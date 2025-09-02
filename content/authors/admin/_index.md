@@ -106,7 +106,7 @@ work:
     company_url: 'https://www.igh.cnrs.fr/en'
     company_logo: ''
     date_start: '2025-01-01'
-    date_end: '2025-06-31'
+    date_end: '2025-06-30'
     summary: |
       # Responsibilities include:
       # - Migrated infrastructure to a new data center
