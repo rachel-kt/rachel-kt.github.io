@@ -35,7 +35,6 @@ previous organizations:
 profiles:
   - icon: brands/youtube
     url: https://www.youtube.com/@Ms2loopy
-    label: E-mail Me
   - icon: brands/instagram
     url: https://www.instagram.com/ice_india?igsh=MWNtZG42b3FhdTRrMQ%3D%3D&utm_source=qr
   - icon: brands/github
