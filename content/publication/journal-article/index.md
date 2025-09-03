@@ -1,15 +1,21 @@
 ---
-title: "An example journal article"
+title: "Cell heterogeneity contributes to the variable response of HIV-1 to latency reversing agents [under review]" 
 authors:
 - admin
-- Robert Ford
+- Hussein Karaki
+- Flavia Mazzarda
+- Oriane Pourcelot
+- Manon Philippe
+- Kazem Zibara
+- Ovidiu Radulescu
+- Edouard Bertrand
 author_notes:
 - "Equal contribution"
 - "Equal contribution"
-date: "2005-09-01T00:00:00Z"
+date: "2025-09-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
+publishDate: "2026-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
