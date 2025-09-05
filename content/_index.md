@@ -70,15 +70,11 @@ sections:
         I am passionate about advancing our understanding of the molecular mechanisms and interactions that shape human health and disease, and I am eager to collaborate with other researchers and experts in this field. I value curiosity, innovation, and diversity, and I strive to contribute to the scientific community and society with my work.
         
         Please reach out to collaborate 😃
-          
-      class: justify
-
-        
-
 
     design:
       columns: '1'
-
+      css_style: "text-align: justify;"
+      
   - block: collection
     content:
       title: Recent Publications
