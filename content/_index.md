@@ -41,6 +41,9 @@ sections:
       username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
+    design:
+      css_class: dark
+      css_style: "max-width: 100%; padding-left: 2rem; padding-right: 2rem;"
 
     design:
       css_class: dark
@@ -74,7 +77,7 @@ sections:
     design:
       columns: '1'
       css_style: "text-align: justify;"
-      
+
   - block: collection
     content:
       title: Recent Publications
