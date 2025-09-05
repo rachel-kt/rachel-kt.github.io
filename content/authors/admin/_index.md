@@ -142,8 +142,8 @@ work:
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Programming
-    color: '#eeac02'
-    color_border: '#f0bf23'
+    color: '#38A9FF'
+    color_border: '#3838FF'
     items:
       - name: 'Python'
         percent: 90
