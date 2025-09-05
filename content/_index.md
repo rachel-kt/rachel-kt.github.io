@@ -75,6 +75,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
+      url: /#papers
       text: ""
       filters:
         folders:
