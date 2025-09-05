@@ -61,16 +61,19 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        <div style="text-align: justify;">
-          I'm a research scientist. I blog about Computer Vision, Image Analysis, and Crochet.
+        
+        I'm a research scientist. I blog about Computer Vision, Image Analysis, and Crochet.
 
-          As a doctoral student, I conducted cutting-edge research in the field of transcription dynamics, applying my skills in Python, R, and MATLAB to analyze large and complex datasets. I have a master's degree in physics and a postgraduate diploma in statistics, which give me a strong foundation in quantitative and computational methods. I have over six years of work experience in various research settings, including Institut de Génétique Moléculaire de Montpellier and Amity University, where I participated in multiple projects on topics such as gene regulation, transcriptional noise and cancer. 
+        As a doctoral student, I conducted cutting-edge research in the field of transcription dynamics, applying my skills in Python, R, and MATLAB to analyze large and complex datasets. I have a master's degree in physics and a postgraduate diploma in statistics, which give me a strong foundation in quantitative and computational methods. I have over six years of work experience in various research settings, including Institut de Génétique Moléculaire de Montpellier and Amity University, where I participated in multiple projects on topics such as gene regulation, transcriptional noise and cancer. 
+        
+        
+        I am passionate about advancing our understanding of the molecular mechanisms and interactions that shape human health and disease, and I am eager to collaborate with other researchers and experts in this field. I value curiosity, innovation, and diversity, and I strive to contribute to the scientific community and society with my work.
+        
+        Please reach out to collaborate 😃
           
-          
-          I am passionate about advancing our understanding of the molecular mechanisms and interactions that shape human health and disease, and I am eager to collaborate with other researchers and experts in this field. I value curiosity, innovation, and diversity, and I strive to contribute to the scientific community and society with my work.
-          
-          Please reach out to collaborate 😃
-        </div>
+      class: justify
+
+        
 
 
     design:
