@@ -43,7 +43,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
     design:
       css_class: dark
-      css_style: "max-width: 100%; padding-left: 2rem; padding-right: 2rem;"
+      css_style: "max-width: 1400px; margin: 0 auto;"
 
     design:
       css_class: dark
