@@ -229,20 +229,21 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Cycling
         description: ''
-        percent: 60
         icon: person-simple-walk
-      - name: Cats
+      - name: Badminton
         description: ''
-        percent: 100
         icon: cat
-      - name: Photography
+      - name: Crochet
         description: ''
-        percent: 80
         icon: camera
-
-
+      - name: Knitting
+        description: ''
+        icon: camera
+      - name: Epoxy Resin
+        description: ''
+        icon: camera
 
 languages:
   - name: English
