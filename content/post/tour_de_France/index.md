@@ -1,7 +1,7 @@
 ---
 title: My tour de France
 summary: 
-date: 2023-10-27
+date: 2023-05-25
 
 # Featured image
 # Place an image named `featured.jpg/png` in this page's folder and customize its options here.
@@ -17,15 +17,13 @@ tags:
   - Rhone
 ---
 
-Welcome 👋
-
 {{< toc mobile_only=true is_open=true >}}
 
-## Overview
+
 ![image info](./j2.jpeg)
 ![image info](./j3.jpeg)
 ![image info](./j4.jpeg)
-## License
+
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
 
