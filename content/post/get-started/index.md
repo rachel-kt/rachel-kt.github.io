@@ -22,7 +22,9 @@ Welcome 👋
 {{< toc mobile_only=true is_open=true >}}
 
 ## Overview
-![image info](./featured.jpg)
+![image info](./j2.jpg)
+![image info](./j3.jpg)
+![image info](./j4.jpg)
 ## License
 
 Copyright 2016-present [George Cushen](https://georgecushen.com).
