@@ -64,9 +64,9 @@ education:
     date_end: 2024-12-12
     summary: |
       Thesis on Understanding the role of transcriptional noise in HIV-1 latency exit. Supervised by [Prof Ovidiu Radulescu](https://qbio.umontpellier.fr/team/ovidiu-radulescu/) and [Dr. Edouard Bertrand](https://www.igh.cnrs.fr/en/research/departments/genetics-development/biologie-cellulaire-de-larn). Contributions being published in 6+ journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
       
   - area: Post Graduate Diploma in Applied Statistics 
     institution: Indira Gandhi National Open University, New Delhi, India
