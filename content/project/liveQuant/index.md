@@ -10,6 +10,28 @@ tags:
   # - Markdown
 ---
 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Preprocessing](#preprocessing)
+4. [Segmentation](#segmentation)
+5. [Detection](#detection)
+6. [Usage Examples](#usage-examples)
+7. [Troubleshooting](#troubleshooting)
+8. [License](#license)
+
+---
+
+## Introduction
+Provide a brief overview of the Python application here.  
+Explain its purpose, features, and the problem it solves.
+
+Example:
+> This application allows users to preprocess images, segment objects, and detect features using state-of-the-art algorithms. It is designed to be simple, fast, and modular.
+
+---
+
+## Installation
 A software package for analyzing live-cell microscopy data of transcription. Includes tools for pre-processing, segmentation, motion correction, spot and cluster detection, parameter tuning, and high-confidence transcription site tracking with GUI support. Outputs include trajectories and nascent RNA quantification.
 
 This repository contains a comprehensive software package designed for the analysis of live-cell microscopy data focused on the transcription process. The pipeline enables users to systematically process time-lapse 3D imaging datasets acquired during transcriptional activity using fluorescence microscopy techniques (e.g., MS2 systems).
@@ -41,5 +63,12 @@ The package is modular, allowing users to run individual steps or the entire pip
 
 Thanks to these open source libraries!
 ![image info](./FIGURE-1.svg)
+
+### Requirements
+- Python version: `3.x`
+- Required libraries: `numpy`, `opencv-python`, `scikit-image`, etc.
+
+
+
 
 <!--more-->
