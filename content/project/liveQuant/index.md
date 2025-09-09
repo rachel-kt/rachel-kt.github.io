@@ -15,10 +15,11 @@ tags:
 2. [Installation](#installation)
 3. [Preprocessing](#preprocessing)
 4. [Segmentation](#segmentation)
-5. [Detection](#detection)
-6. [Usage Examples](#usage-examples)
-7. [Troubleshooting](#troubleshooting)
-8. [License](#license)
+5. [Quality Check](#quality-check)
+6. [Detection](#detection)
+7. [Usage Examples](#usage-examples)
+8. [Troubleshooting](#troubleshooting)
+9. [License](#license)
 
 ---
 
@@ -108,5 +109,13 @@ To map out the trajectory of the moving nuclei, we make a time projection. This 
 Please not that this may not be efficient if the trajectories are overlapping.
 
 ![image info](./images/image_6.png)
+
+### Step 2. Motion correction and Cropping.
+
+We use centering using the centroid and cropping in order to remove motion correction.
+![image info](./images/image_7.png)
+
+
+## Quality Check
 
 <!--more-->
