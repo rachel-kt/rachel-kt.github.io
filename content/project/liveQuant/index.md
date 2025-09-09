@@ -110,6 +110,38 @@ Please not that this may not be efficient if the trajectories are overlapping.
 
 ![image info](./images/image_6.png)
 
+This module provides a simple graphical interface (Qt + Napari) for running Cellpose segmentation on time-lapse microscopy TIFF sequences. It:
+1. Loads a pretrained Cellpose model.
+2. Processes TIFF image sequences by creating time-projections.
+3. Runs segmentation and saves results automatically.
+4. Opens results in Napari for visualization and manual editing.
+5. Allows saving the modified segmentation back to disk.
+
+To launch the module, run the following code snippet. The script projection_and_segmentation.py is available in the folder segmentation
+
+`python projection_and_segmentation.py`
+
+A small dialogue box will open up as shown in the picture below:
+
+![image info](./seg_images/image_1.png)
+
+🖥️ Main Window Functions
+1. Load Cellpose Model
+
+Click “Load Cellpose Model”
+Select your pretrained model file.
+
+![image info](./seg_images/image_2.png)
+
+Once loaded, you will see a confirmation message.
+
+![image info](./seg_images/image_3.png)
+
+After loading a model, the “Run Segmentation” button is enabled.
+
+![image info](./seg_images/image_4.png)
+
+
 ### Step 2. Motion correction and Cropping.
 
 We use centering using the centroid and cropping in order to remove motion correction.
