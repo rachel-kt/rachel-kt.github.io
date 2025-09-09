@@ -23,15 +23,7 @@ tags:
 ---
 
 ## Introduction
-Provide a brief overview of the Python application here.  
-Explain its purpose, features, and the problem it solves.
 
-Example:
-> This application allows users to preprocess images, segment objects, and detect features using state-of-the-art algorithms. It is designed to be simple, fast, and modular.
-
----
-
-## Installation
 A software package for analyzing live-cell microscopy data of transcription. Includes tools for pre-processing, segmentation, motion correction, spot and cluster detection, parameter tuning, and high-confidence transcription site tracking with GUI support. Outputs include trajectories and nascent RNA quantification.
 
 This repository contains a comprehensive software package designed for the analysis of live-cell microscopy data focused on the transcription process. The pipeline enables users to systematically process time-lapse 3D imaging datasets acquired during transcriptional activity using fluorescence microscopy techniques (e.g., MS2 systems).
@@ -64,10 +56,49 @@ The package is modular, allowing users to run individual steps or the entire pip
 Thanks to these open source libraries!
 ![image info](./FIGURE-1.svg)
 
+## Installation
+
 ### Requirements
 - Python version: `3.x`
 - Required libraries: `numpy`, `opencv-python`, `scikit-image`, etc.
 
+### Setting up the environment
+1. Create the environment from the yaml file:
+`conda env create -f liveQuant_092025_v3_2.yml`
+
+2. Activate the new environment:
+`conda activate liveQuant`
+   
+
+## Preprocessing
+
+### Step 1. Convert movie file to a sequence of TIFFs
+![image info](./images/image_1.png)
+
+run the script in the segmentation folder called "file_convert_and_viewer.py"
+A dialogue box opens up with 3 options.
+
+1. Select a single file to process
+2. Select a folder to process movies in bulk
+3. Select a folder with .tif files to view
+
+   
+![image info](./images/image_2.png)
+
+If you want to process a single file, click on the "Select File" button and navigate to the file to select it. A pop up appears showing the name of the file selected, click OK. Now the button "Run Processing" will be un-grayed. Click this button to start processing. The progress bar starts updating.
+
+![image info](./images/image_3.png)
+
+Once complete, a pop will appear as  below. Click OK
+
+![image info](./images/image_4.png)
+
+If you want to use the viewer functionality click on the last option "View TIFF Sequence" and a viewer appears as shown below. 
+
+
+![image info](./images/image_5.png)
+
+The left side shows the 4-D movie whereas the right side shows a maximum intensity projection along the Z-axis.
 
 
 
