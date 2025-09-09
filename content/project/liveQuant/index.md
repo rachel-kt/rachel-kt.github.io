@@ -107,5 +107,6 @@ The left side shows the 4-D movie whereas the right side shows a maximum intensi
 To map out the trajectory of the moving nuclei, we make a time projection. This will help us centre the nuclei and make motion corrections. 
 Please not that this may not be efficient if the trajectories are overlapping.
 
+![image info](./images/image_6.png)
 
 <!--more-->
