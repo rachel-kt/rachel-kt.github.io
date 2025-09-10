@@ -1,6 +1,6 @@
 ---
 title: liveQuant
-date: 2024-10-26
+date: 2025-09-05
 links:
   - type: site
     url: https://github.com/rachel-kt/liveQuant
