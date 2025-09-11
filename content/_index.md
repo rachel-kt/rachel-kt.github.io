@@ -81,7 +81,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
-      url: /#papers
+      url: /#publications
       text: ""
       filters:
         folders:
