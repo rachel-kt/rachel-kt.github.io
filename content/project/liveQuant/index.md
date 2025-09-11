@@ -147,6 +147,73 @@ After loading a model, the “Run Segmentation” button is enabled.
 We use centering using the centroid and cropping in order to remove motion correction.
 ![image info](./images/image_7.png)
 
+In some cases, you may not be required to do the motion correction. The tool lets you perform the cropping without it as well.
+
+#### 1. Launching the Tool
+
+Run the script from your Python environment:
+
+`python cell_cropping_gui.py`
+
+The main window will open.
+
+![image info](./crop_images/gui_1.png)
+
+#### 2. Choosing a LiveCell Model
+
+Click "Load LiveCell Model".
+
+A file explorer will appear.
+
+Navigate to your pretrained Cellpose model and select it. After selection, a pop-up confirmation will appear:
+![image info](./crop_images/gui%20cellpose%20model.png) ![image info](./crop_images/model%20selected.png)
+
+
+#### 3. Loading an Experiment Folder
+
+Click "Load Experiment Folder".
+
+Browse and select the folder containing your experiment sessions.
+![image info](./crop_images/choose%20experiment.png)
+
+
+#### 4. Entering a Session Identifier
+
+After selecting the folder, a pop-up will prompt you to enter an identifier (e.g., "TNF", "sample1").
+
+This identifier is used to filter session folders inside your experiment directory.
+
+The tool will list the number of sessions found that match the identifier.
+
+![image info](./crop_images/identifier.png)
+
+#### 5. Creating Masks
+
+Click "Create Masks".
+
+A dialog will appear asking how many CPU threads to use. Enter a number (default is 8).
+
+The mask creation process will begin, and the progress bar will appear in the terminal with real-time updates as frames are processed.
+
+![image info](./crop_images/mask%20progress.png)
+
+#### 6. Running the Main Process
+
+Once masks are created, click "Run Cropping Process".
+
+This will process the experiment sessions (cropping, matching, plotting nuclei).
+![image info](./crop_images/cropping%20progress.png)
+When complete, a confirmation popup will appear.
+
+![image info](./crop_images/crop%20finished.png)
+
+#### 7. Tips & Notes
+
+TimeProjectionMask Option: You can choose whether to use time projection masks via the provided button.
+
+Threading: For best performance, set the number of threads close to the number of CPU cores on your machine.
+
+Output: Masks and cropped nuclei are saved inside your tempMasks/ within each FOV folder.
 
 ## Quality Check
 
