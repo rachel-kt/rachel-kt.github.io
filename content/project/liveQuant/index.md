@@ -61,7 +61,7 @@ Thanks to these open source libraries!
 
 ### Requirements
 - Python version: `3.8`
-- Required libraries: `numpy`, `opencv-python`, `scikit-image`, etc.
+- Required libraries: `big-fish`, `cellpose`, `scikit-image`, `napari` etc.
 
 ### Setting up the environment
 1. Create the environment from the yaml file:
