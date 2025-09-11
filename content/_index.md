@@ -79,9 +79,10 @@ sections:
       css_style: "text-align: justify;"
 
   - block: collection
+    id: publication
     content:
       title: Recent Publications
-      url: /#publication
+      url: ''
       text: ""
       filters:
         folders:
