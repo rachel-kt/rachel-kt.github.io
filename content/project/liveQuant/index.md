@@ -60,7 +60,7 @@ Thanks to these open source libraries!
 ## Installation
 
 ### Requirements
-- Python version: `3.x`
+- Python version: `3.8`
 - Required libraries: `numpy`, `opencv-python`, `scikit-image`, etc.
 
 ### Setting up the environment
@@ -117,7 +117,8 @@ This module provides a simple graphical interface (Qt + Napari) for running Cell
 4. Opens results in Napari for visualization and manual editing.
 5. Allows saving the modified segmentation back to disk.
 
-To launch the module, run the following code snippet. The script projection_and_segmentation.py is available in the folder segmentation
+#### Launching the Tool
+To launch the module, run the following script projection_and_segmentation.py which is available in the folder segmentation
 
 `python projection_and_segmentation.py`
 
@@ -125,21 +126,76 @@ A small dialogue box will open up as shown in the picture below:
 
 ![image info](./seg_images/image_1.png)
 
-🖥️ Main Window Functions
+The main window will open with three buttons:
+
 1. Load Cellpose Model
+2. Run Segmentation on TIFF Folder
+3. View Results in Napari
 
-Click “Load Cellpose Model”
-Select your pretrained model file.
 
+#### Load a Cellpose Model
+
+Click "Load Cellpose Model".
+
+Select a pretrained Cellpose model file.
 ![image info](./seg_images/image_2.png)
 
-Once loaded, you will see a confirmation message.
-
+A popup will confirm the model is loaded.
 ![image info](./seg_images/image_3.png)
 
-After loading a model, the “Run Segmentation” button is enabled.
-
+The "Run Segmentation" button becomes enabled.
 ![image info](./seg_images/image_4.png)
+
+#### Run Segmentation on TIFF Folder
+
+Click "Run Segmentation on TIFF Folder".
+Choose the folder containing your TIFF image sequences.
+The tool will create a subfolder named tProjections inside it.
+
+Enter an identifier when prompted:
+![image info](./seg_images/image_5.png)
+This is a text filter to match subfolders containing TIFF sequences.
+
+For each session folder:
+A time projection is generated using a maximum projection over time.
+The projection is saved as a .tif file inside tProjections/.
+The loaded Cellpose model performs segmentation on the projection.
+Segmentation outputs (*_cp_masks.png, *_cp_outlines.png, etc.) are saved in tProjections/.
+
+When finished, a popup confirms: “Time projections and segmentation labels saved!”
+![image info](./seg_images/image_6.png)
+
+#### View Results in Napari
+
+Click "View Results in Napari".
+
+Select a TIFF sequence folder you processed earlier.
+The tool automatically locates the corresponding tProjections/ folder.
+
+Napari viewer will open showing:
+![image info](./seg_images/image_7.png)
+The maximum projection of the TIFF sequence (green).
+The segmentation labels (if found).
+A docked “Save Current Segmentation” button is available:
+Allows saving edits made to the segmentation mask back to the tProjections/ folder.
+Saved masks overwrite the existing *_cp_masks.png file.
+
+
+####  Output Files
+
+For each processed TIFF folder, you will find in tProjections/:
+
+1. T_MAX_<session_name>.tif → maximum intensity time projection
+2. T_MAX_<session_name>_cp_masks.png → segmentation masks
+3. T_MAX_<session_name>_cp_outlines.png → outlines overlay
+4. T_MAX_<session_name>_cp_flows.png → Cellpose flow output
+
+#### Tips & Notes
+
+Model selection: Use pretrained models from Cellpose or your own trained model.
+Identifier: Use a simple string to filter session folders quickly.
+Editing segmentations: Napari can be used to manually correct labels before saving.
+Batch processing: The tool loops over all folders matching your identifier.
 
 
 ### Step 2. Motion correction and Cropping.
