@@ -355,5 +355,5 @@ IMPORTANT NOTE:
 Here's an example video:
 
 
-![video](./gui/multiview_example.mp4)
+![video info](./gui/multiview_example.mp4)
 <!--more-->
