@@ -302,7 +302,7 @@ Folder selector (magicgui) to choose a base folder and a subfolder containing TI
 
 From the terminal run the code: 
 
-python multiview_spotter.py
+`python multiview_spotter.py`
 
 The application window will appear showing the two embedded napari viewers. A Save Spots as NPZ button appears beneath the viewers. The magicgui folder chooser appears above that.
 
