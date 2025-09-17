@@ -361,5 +361,5 @@ Here's an example video:
   width="600"
 >}} -->
 
-![video info](./gui/multiview_example.mp4)
+[Example](https://youtu.be/JOKG7Mq5f90)
 <!--more-->
