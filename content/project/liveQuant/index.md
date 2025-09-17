@@ -354,12 +354,12 @@ IMPORTANT NOTE:
 
 Here's an example video:
 
-{{< video src="./gui/multiview_example.mp4" controls="yes" >}}
+<!-- {{< video src="./gui/multiview_example.mp4" controls="yes" >}} -->
 
 <!-- {{< video
   src="Big_Buck_Bunny_1080_10s_5MB.mp4"
   width="600"
 >}} -->
 
-<!-- ![video info](./gui/multiview_example.mp4) -->
+![video info](./gui/multiview_example.mp4)
 <!--more-->
