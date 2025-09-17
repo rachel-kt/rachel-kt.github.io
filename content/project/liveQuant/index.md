@@ -354,6 +354,12 @@ IMPORTANT NOTE:
 
 Here's an example video:
 
+{{< youtube hpjmbn7cTyx924ep >}} 
 
-![video info](./gui/multiview_example.mp4)
+<!-- {{< video
+  src="Big_Buck_Bunny_1080_10s_5MB.mp4"
+  width="600"
+>}} -->
+
+<!-- ![video info](./gui/multiview_example.mp4) -->
 <!--more-->
