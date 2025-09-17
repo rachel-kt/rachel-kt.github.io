@@ -354,11 +354,11 @@ IMPORTANT NOTE:
 
 Here's an example video:
 
-{{< video src="my_video.mp4" controls="yes" >}}
-<!-- <video width="100%" controls>
+
+<video width="100%" controls>
   <source src="/videos/multiview_example.mp4" type="video/mp4">
   Your browser does not support the video tag.
-</video> -->
+</video>
 <!-- {{< video src="./gui/multiview_example.mp4" controls="yes" >}} -->
 
 
