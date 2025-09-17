@@ -354,6 +354,10 @@ IMPORTANT NOTE:
 
 Here's an example video:
 
-{{< video src="./gui/multiview_example.mp4" controls="yes" >}}
+<!-- {{< video src="./gui/multiview_example.mp4" controls="yes" >}} -->
+
+<video width="800" controls>
+  <source src="./gui/multiview_example.mp4" type="video/mp4">
+</video>
 <!-- ![video](./gui/multiview_example.mp4) -->
 <!--more-->
