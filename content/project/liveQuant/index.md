@@ -352,4 +352,7 @@ IMPORTANT NOTE:
 1. You can only add spots when the 'TIFF Sequence' layer is selected.
 2. You can only see the spot locating cursor (white circle) when the 'cursor_4D' is selected.
 
+Here's an example video:
+
+![video](./gui/multiview_example.mp4)
 <!--more-->
