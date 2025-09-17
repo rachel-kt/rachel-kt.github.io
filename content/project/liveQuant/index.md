@@ -273,4 +273,83 @@ Output: Masks and cropped nuclei are saved inside your tempMasks/ within each FO
 
 ## Quality Check
 
+Coming soon... (not required for jurkat cells)
+
+## Detection
+
+### Spot Addition Interface
+For jurkat cells, the spot detection is completely manual. 
+
+#### Overview
+
+This application provides a small Qt-based interface embedding two napari viewers side-by-side:
+
+Viewer 1 (left): displays the full 4D image stack (t, z, y, x) called TIFF Sequence. You add spots here by clicking (records t,z,y,x).
+
+Viewer 2 (right): displays the timewise max-projection image called Max Projection (MIP over Z) — it shows the same time frame as Viewer 1 and displays corresponding spots projected as (t,y,x).
+
+Main features:
+
+Interactive cursor that synchronizes between viewers (4D → 3D projection).
+
+Click to create spots (recorded as [t, z, y, x] in viewer1 and [t, y, x] in viewer2).
+
+Save recorded spots to an .npz file via the Save Spots as NPZ button.
+
+Folder selector (magicgui) to choose a base folder and a subfolder containing TIFF frames to load into both viewers.
+
+#### Launching the app
+
+From the terminal run the code: 
+
+python multiview_spotter.py
+
+The application window will appear showing the two embedded napari viewers. A Save Spots as NPZ button appears beneath the viewers. The magicgui folder chooser appears above that.
+
+![image info](./gui/image_0.png)
+
+#### App description
+
+When the app launches, you will see:
+
+1. File navigator area at the bottom:
+
+Choose cell to analyse: populated with subfolders whose names contain identifier (default 'cell') and have at least MaxTimePoint files.
+
+Choose home folder: choose the parent directory that contains subfolders of image sequences.
+
+Selecting a folder in the dropdown gives you a list of cell folders you can work with.
+
+2. Load Selected Cell button:
+
+Loads the chosen subfolder's TIFF frames with dask.array.image.imread (pattern folder/*.tif), adds them to Viewer 1 as the time stack and to Viewer 2 as a max-projection image.
+
+
+3. Save Spots as NPZ button:
+
+Saves the spots layer from viewer1 as an .npz file containing an array saved under the key points.
+
+The file dialog will prompt you for a file name; the code appends '_spots' to your chosen name.
+
+#### How to add spots (step-by-step)
+
+Load a dataset using the magicgui + Load Selected Cell button. By default the layer 'cursor_4D' is selected.
+
+Navigate your cursor in viewer 2 to the point you want to add. 
+
+Find the spot in the z slice in viewer 1 using the 'Up' or 'Down' arrow key on the keyboard.
+
+Once you are ready, use the 'PageDown' key on the keyboard to switch to the 'TIFF Sequence' layer.
+
+Left Click using your mouse and you will see a new layer called 'spots' appear on the viewer.
+
+Console prints a message like:
+Added point at (t,z,y,x): (3, 4, 56, 75)
+
+Use the 'PageUp' key to go back to the layer 'cursor_4D' to find new spots.
+
+IMPORTANT NOTE: 
+1. You can only add spots when the 'TIFF Sequence' layer is selected.
+2. You can only see the spot locating cursor (white circle) when the 'cursor_4D' is selected.
+
 <!--more-->
