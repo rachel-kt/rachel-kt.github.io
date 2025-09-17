@@ -354,6 +354,7 @@ IMPORTANT NOTE:
 
 Here's an example video:
 
+{{< youtube JOKG7Mq5f90 >}}
 <!-- <video width="100%" controls>
   <source src="/videos/multiview_example.mp4" type="video/mp4">
   Your browser does not support the video tag.
