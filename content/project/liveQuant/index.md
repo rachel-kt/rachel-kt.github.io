@@ -65,7 +65,7 @@ Thanks to these open source libraries!
 
 ### Setting up the environment
 1. Create the environment from the yaml file:
-`conda env create -f liveQuant_092025_v3_2.yml`
+`conda env create -f liveQuant_092025_v3_2.yaml`
 
 2. Activate the new environment:
 `conda activate liveQuant`
