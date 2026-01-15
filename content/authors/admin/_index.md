@@ -191,7 +191,7 @@ skills:
     color_border: '#3838FF'
     items:
       - name: 'CI/CD tools'
-        percent: 85
+        percent: 70
       - name: 'Git, GitLab'
         percent: 85
       - name: 'Docker, Jupyter'
