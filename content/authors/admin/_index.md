@@ -93,7 +93,7 @@ work:
     company_url: 'https://lphi.umontpellier.fr/'
     company_logo: ''
     date_start: '2025-09-01'
-    date_end: ''
+    date_end: '2025-09-20'
     summary: |2-
 
 
