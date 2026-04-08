@@ -88,6 +88,14 @@ education:
       
 
 work:
+
+  - position: Post-Doc at The department of Genome Dynamics
+    company_name: Institute of Human Genetics
+    company_url: 'https://igh.cnrs.fr/research-teams/team-charlene-boumendil/'
+    company_logo: ''
+    date_start: '2026-04-01'
+    summary: |2-
+    
   - position: Post-Doc at Computational Systems Biology Lab (LPHI)
     company_name: Laboratory of Pathogens and Host Immunity
     company_url: 'https://lphi.umontpellier.fr/'
